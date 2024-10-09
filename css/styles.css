@@ -1,0 +1,492 @@
+body{
+  background-color:#FFFFFF;
+  margin: 30px;
+}
+.btn{
+  color:#ececf5;
+ width:100px;
+ padding-left: 10px;
+ align-content: end;
+ 
+ 
+}
+
+.carousel{
+  border-radius: 40px;
+}
+
+.prt{
+  background-color: rgb(232, 232, 240);
+  border-radius: 30px;
+  padding: 10px;
+  text-align: justify;
+}
+
+span{
+  color:#FF3333;
+}
+
+.container{
+padding: 50px;
+background-color:#FFFFFF ;
+border-radius: 0px;
+}
+.order-9{
+  padding: 20px;
+  background-color:#F2F2F1;
+text-align: justify;
+margin: 10px;
+border-radius: 30px;
+box-shadow: 20px;
+
+}
+.order-6{
+  padding: 20px;
+  background-color:#F2F2F1;
+text-align: justify;
+margin: 5px;
+border-radius: 30px;
+border-color: #000000;
+box-shadow: 20000px;
+
+
+}
+.order-12{
+  padding: 20px;
+  background-color:#F2F2F1;
+text-align: justify;
+margin: 5px;
+border-radius: 20px;
+box-shadow: 20000px;
+
+}
+.order-3{
+  padding: 20px;
+  background-color:#F2F2F1;
+text-align: justify;
+margin: 5px;
+border-radius: 30px;
+box-shadow: 20000px;
+
+}
+.order-8{
+  padding: 20px;
+  background-color:#F2F2F1;
+text-align: justify;
+margin: 5px;
+border-radius: 30px;
+box-shadow: 20000px;
+}
+
+.order-4{
+  padding: 20px;
+background-color:#F2F2F1;
+text-align: justify;
+margin: 5px;
+border-radius: 30px;
+
+}
+
+
+.her{
+  padding: 20px;
+align-items: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-12{
+  padding: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+footer {
+display: flex;
+justify-content: center; /* Center the social icons horizontally */
+align-items: center; /* Center the social icons vertically */
+padding: 1rem;
+background-color:#F7F7F7;
+}
+.social-icons {
+display: flex;
+gap: 2rem; /* Evenly space the social media icons */
+}
+
+.social-icons a img {
+width: 50px; /* Size of the icons */
+height: 50px;
+display: flex;
+gap: 2rem; /* Evenly space the social media icons */
+background-color:white;
+}
+
+
+
+  .navbar{
+  border-radius: 40px;
+  display:flex;
+  justify-content:space-between;
+  margin: 20px;
+  height: 70px;
+  align-items: right;
+  background-color: #FFFFFF;
+
+
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight:rgb(0,0,0);
+    
+  }
+  .nav-item a{
+    color:#000000;
+ 
+    
+    }
+    
+ span50{
+  color:black;
+ }
+
+ .contact{
+  text-decoration-color: #000000;
+  text-align: center;
+  text-align: justify;
+ font-family:'Times New Roman', Times, serif;
+ }
+
+ .mbr-section-title{ 
+  text-align:center;
+
+}
+.ser1{
+  text-align:center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+ 
+}
+span01{
+  color:red;
+  
+}
+
+.mbr-section-subtitle{
+
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* Basic styles for the item container */
+.item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+/* Image inside the item */
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Margins for the grid elements */
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive grid layout */
+.col-6 {
+  width: 50%;
+}
+
+.col-md-4 {
+  width: 33.33%;
+}
+
+.col-lg-3 {
+  width: 25%;
+}
+
+/* Responsive behavior */
+@media (min-width: 768px) {
+  .col-md-4 {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+  }
+}
+
+/* Basic flexbox grid setup */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+z
+.col-6,
+.col-md-4,
+.col-lg-3 {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Custom title styling */
+.mbr-section-title {
+  font-size: 2rem; /* Example size */
+
+  
+}
+
+/* Custom font style */
+.mbr-fonts-style {
+  font-family: 'Arial', sans-serif; /* Set your preferred font */
+  font-size: 1.5rem; /* Adjust the font size */
+align-content: center;
+
+
+ 
+}
+
+/* Center alignment */
+.align-center {
+  text-align: center;
+  
+}
+
+/* No bottom margin */
+.mb-0 {
+  margin-bottom: 10px;
+}
+
+/* Header style */
+.display-5 {
+  font-size: 1.25rem; /* Bootstrap's h5 equivalent */
+  font-weight: 500; /* Medium font weight */
+  
+}
+
+
+ }
+
+
+/* Custom fade-in-up animation */
+@keyframes fadeInUpCustom {
+  from {
+      transform: translateY(20px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* Applying animation */
+.animate__fadeInUp {
+  animation: fadeInUpCustom 1s ease-out;
+}
+
+/* Delay for 1 second */
+.animate__delay-1s {
+  animation-delay: 1s;
+}
+
+
+
+/* Style for each gallery item */
+.item {
+  padding: 15px; /* Adds spacing around each item */
+  margin-bottom: 20px; /* Adds margin between gallery items */
+  transition: transform 0.3s ease-in-out; /* Smooth hover animation */
+}
+
+/* Hover effect for gallery item */
+.item:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Style for the gallery images */
+.gallery-image {
+  width: 100%; /* Ensures the image takes up the entire container */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 8px; /* Rounds the corners of the images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Example media queries if you need to make additional adjustments at breakpoints */
+@media (max-width: 768px) {
+  .item {
+      margin-bottom: 15px; /* Adjust margins for smaller screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .gallery-image {
+      border-radius: 12px; /* Slightly larger border radius on large screens */
+  }
+}
+
+.icon-wrapper  {
+  position: absolute;
+  top: 50%; /* Centers the SVG vertically */
+  left: 50%; /* Centers the SVG horizontally */
+  transform: translate(-50%, -50%); /* Adjusts to make sure the SVG is truly centered */
+  width: 50px; /* Adjust size of SVG */
+  height: 50px;
+  fill: none;
+  border-radius: 50%;
+  stroke:#111111;; /* SVG color */
+  background-color: #EDEFEB;
+}
+
+
+
+
+/* Style the close button */
+a.close {
+  position: absolute; /* Positioning it inside the modal */
+  top: 15px; /* Distance from the top of the modal */
+  right: 15px; /* Distance from the right edge */
+  padding-right: 100px;
+  width: 100px; /* Button size */
+  height: 100px; /* Button size */
+  background-color: transparent; /* Default background (transparent) */
+  border: 30px; /* No border */
+  font-size: 1.5rem; /* Size of the "X" or icon */
+  line-height: 1; /* Ensure the icon is vertically centered */
+  color: #8305fa; /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: color 0.2s ease; /* Smooth color transition */
+}
+
+/* Change color on hover */
+a.close:hover {
+  color: #000; /* Darker text color when hovering */
+}
+
+/* Optional: style an "X" icon inside the close button */
+a.close::before {
+  content: '\00d7'; /* Unicode character for multiplication sign (X) */
+  display: block;
+  text-align: right; /* Center the X */
+  font-weight: bold; /* Make the X bold */
+  font-family: Arial, sans-serif; /* Custom font if needed */
+}
+
+span05{
+  color: black;
+}
+
+
+
+.scrollToTop {
+  position: fixed;
+  
+  bottom: 20px;
+  right: 30px;
+  width: 50px;
+  height: 30px;
+  background-color: #9c9a9a;
+  border-radius: 50%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.scrollToTop.show {
+  display: flex;
+  opacity: 0;
+}
+
+
+.scrollToTop:hover {
+  background-color: #555;
+}
+
+/* CSS Triangle to form an up arrow */
+.scrollToTop::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 26px solid rgb(245, 242, 242); /* Upward-facing arrow */
+}
+
+
+
+a.panel-title {
+  justify-content: space-between;
+  align-items: center;
+  color:black;
+  text-decoration: none;
+  padding: 40px;
+border-radius: 30px;
+border-radius: 300px;
+}
+
+a.panel-title.collapsed .sign {
+  /* When the panel is collapsed, show the down arrow */
+  transform: rotate(0deg); /* Original down arrow */
+
+
+}
+
+a.panel-title .sign {
+  transition: transform 0.3s ease;
+
+}
+
+a.panel-title:not(.collapsed) .sign {
+  /* When the panel is expanded, rotate the arrow upwards */
+  transform: rotate(180deg); /* Rotate arrow upwards */
+}
+
+.pr{
+font-size: large;
+margin-right: 10px;
+text-align: justify;
+text-align: start;
+text-spacing-trim: 10px;
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
